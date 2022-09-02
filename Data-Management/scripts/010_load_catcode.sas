@@ -1,7 +1,7 @@
 * The code example assumes: a host, source caslib, target caslib and a .csv file present in the source caslib;
 
 * host;
-cas casauto host="controller.sas-cas-server-default.gelenv.svc.cluster.local" port=5570;
+cas casauto host="server.demo.sas.com" port=5570;
 * source caslib;
 %let DM_SRC=DM;
 * target caslib;
